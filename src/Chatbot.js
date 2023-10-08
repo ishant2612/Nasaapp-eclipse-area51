@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import "./Chatbot.css"
 function Chatbot() {
-    const apiKey = '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';
+    const apiKey = 'YOUR API KEY';
   const [inputText, setInputText] = useState('');
   const [response, setResponse] = useState('');
   
